@@ -59,13 +59,13 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Solana Faucet',
+      desc: 'A Web3 faucet built with React.js, Tailwind CSS and web3.js',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'This Solana-based faucet allows users to connect their Web3 wallets, request SOL airdrops, view balances, send SOL to specific addresses, and sign messages. Built with React.js, Tailwind CSS, and @solana/web3.js, it ensures a seamless and interactive user experience.',
+      href: 'https://solana-faucet-ashy-three.vercel.app/',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/project-logo1.png', // Replace
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -85,24 +85,19 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: '@solana/web3.js',
+          path: '/assets/typescript.png', // Replace with SOL image
         },
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Blockchain Visualization',
+      desc: 'A dynamic and interactive blockchain visualization tool built with React.js and Tailwind CSS.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+        'This project allows users to visually understand the workings of blockchain technology by creating and appending blocks with user-provided data. Featuring a sleek, dark-themed UI with glowing pink accents, the app demonstrates the generation of block hashes, timestamps, and connections to previous blocks, making blockchain concepts accessible to everyone.',
+      href: 'https://blockchain-validator-k95s-1bd1s2lcj-ashiqs-projects-5d0d0586.vercel.app/',
+      texture: '/textures/project/project2.mp4', // Replace
+      logo: '/assets/project-logo2.png', //Replace
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -121,11 +116,6 @@ export const navLinks = [
           path: 'assets/tailwindcss.png',
         },
         {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
           id: 4,
           name: 'Framer Motion',
           path: '/assets/framer.png',
@@ -133,13 +123,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Personalized Dashboard',
+      desc: 'A feature-rich personalized dashboard built with React.js, Node.js, Express.js, PostgreSQL, and Tailwind CSS.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+        'This dashboard enables users to log in and integrate their GitHub, LeetCode, Codeforces, and LinkedIn profiles. It fetches data through APIs and visualizes key metrics, such as problem-solving stats, rankings, ratings, and GitHub contributions, using interactive graphs and charts for an insightful user experience.',
+      href: 'https://github.com/AshiqAhamed17/Dashboard',
+      texture: '/textures/project/project3.mp4', // Replace
+      logo: '/assets/project-logo3.png', // Replace
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -147,7 +137,7 @@ export const navLinks = [
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
-      spotlight: '/assets/spotlight3.png',
+      spotlight: '/assets/spotlight3.png', // Replace
       tags: [
         {
           id: 1,
@@ -166,62 +156,25 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Express.js',
+          path: '/assets/framer.png', // Replace
         },
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'ETH Staking Contract',
+      desc: 'A decentralized staking platform built with Solidity, Foundry, React.js, Node.js and the Wagmi framework.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
-      logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
-      },
-      spotlight: '/assets/spotlight4.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
+        'This project allows users to stake ETH and earn reward tokens as incentives for their participation. Users can monitor their staking balance, claim rewards, and unstake their ETH seamlessly, all through a Web3-enabled interface. The platform integrates smart contracts for secure staking mechanisms and utilizes Wagmi for a smooth wallet interaction experience.',
+      href: 'https://github.com/AshiqAhamed17/Staking-Contract',
+      texture: '/textures/project/project5.mp4', // Replace
+      logo: '/assets/project-logo5.png', // Replace
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight5.png',
+      spotlight: '/assets/spotlight5.png', // Replace
       tags: [
         {
           id: 1,
@@ -230,18 +183,18 @@ export const navLinks = [
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'Solidity',
+          path: 'assets/tailwindcss.png', // Replace
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'Foundry',
+          path: '/assets/typescript.png', //Replace
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Node.js',
+          path: '/assets/framer.png', // Replace
         },
       ],
     },
@@ -270,19 +223,19 @@ export const navLinks = [
     },
     {
       id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+      name: 'NULL',
+      pos: 'NULL',
+      duration: '00/00/0000',
+      title: "----------------",
       icon: '/assets/figma.svg',
       animation: 'clapping',
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+      name: 'NULL',
+      pos: 'NULL',
+      duration: '00/00/0000',
+      title: "----------------",
       icon: '/assets/notion.svg',
       animation: 'salute',
     },
